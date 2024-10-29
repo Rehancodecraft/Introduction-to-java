@@ -5,7 +5,7 @@ public class logic{
         int c = 30;
     
         System.out.println((a>b)&&(b<c));
-        System.out.println((a<b)|| (b<c));
+        System.out.println((a<b)|| (b>c));
     }
 
 }

@@ -1,4 +1,4 @@
-public class  note {
+public class  currency {
     public static void main(String[]args){
         int cur = 15530;
         int fi_th = cur/5000;

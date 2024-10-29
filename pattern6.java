@@ -8,7 +8,7 @@ public class pattern6 {
         Scanner input = new Scanner(System.in);
         while (ch == 'y')
         {
-            System.out.println("Enter a number: ");
+            System.out.println("Enter  number: ");
             num = input.nextInt();
             sum = sum + num;
             System.out.println("Do you more addition. enter y/n");
