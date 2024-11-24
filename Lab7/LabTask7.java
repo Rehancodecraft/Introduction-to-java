@@ -1,13 +1,25 @@
-import java.util.Arrays;
+import java.util.Scanner;
 
 public class LabTask7 {
     public static void main(String[] args) {
-    //    int [][] array =  new int[3][];
-       int [][] array = {
-       {4,3,7},
-       {4,6,8},
-       {6,8,5}};
-       System.out.println(array[1]);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter oder of Matrix: ");
+        int n = input.nextInt();
+        printMatrix(n);
+    }
+    public static void printMatrix(int n){
+        int [] [] numbers = new int[n][n];
+        for(int row = 0; row < numbers.length;row++){
+            for(int col = 0; col < numbers[row].length;col++){
+                numbers[row][col] = (int) (Math.random()*2);
+            }
+        }
+        for(int row = 0; row < numbers.length;row++){
+            for(int col = 0; col < numbers[row].length;col++){
+                System.out.print(numbers[row][col] +" ");
+            }
+            System.out.println();
+        } 
     }
     
 }

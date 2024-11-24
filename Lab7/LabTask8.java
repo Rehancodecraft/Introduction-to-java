@@ -21,7 +21,7 @@ public class LabTask8 {
                 case 'U'-> counter++;
             }
         }
-        System.out.println(counter);
+        System.out.println("Number of vowels in the string are : " + counter);
     }
     
 }
