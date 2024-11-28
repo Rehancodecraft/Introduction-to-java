@@ -7,6 +7,7 @@ public class Course {
         System.out.println(code);
         System.out.println(credit);
     }
+    // give the values to variables
     public void setTitle(String a){
         title = a;
     }
