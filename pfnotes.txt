@@ -1,0 +1,5 @@
+These are notes of java
+S.useDelimiter("#")
+Try catch important
+file handling
+read and write in file 

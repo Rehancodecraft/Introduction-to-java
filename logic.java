@@ -7,5 +7,5 @@ public class logic{
         System.out.println((a>b)&&(b<c));
         System.out.println((a<b)|| (b>c));
     }
-
+//This is i am using the vim editor
 }
