@@ -17,5 +17,4 @@ public class printcharacters {
             System.out.println();
         }
     }
-    
 }
