@@ -6,7 +6,7 @@ public class Filecreating{
 		try{
 			File file = new File("MyFirstFile.txt");
 		if(file.createNewFile()){
-			System.out.println("File created");
+			System.out.println("File created : " + file.getName());
 		}
 		else
 		{
