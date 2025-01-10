@@ -6,7 +6,7 @@ public class Activity5 {
         int number, sum = 0, count;
         for (count = 0; count < 5; count++){
             number = input.nextInt();
-            sum += number;
+            sum += number;//this is i am using vim editor
         }
         System.out.println("sum is "+ sum);
     }
