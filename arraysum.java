@@ -5,6 +5,7 @@ public class arraysum {
         for(int i = 0; i<3;i++)
         {
             for(int j = 0; j< 3; j++){
+		    //adding previous array value into next array value
                  sum = sum + a[i][j];
             }
             System.out.println("sum of row "+(i+1)+"="+sum);
