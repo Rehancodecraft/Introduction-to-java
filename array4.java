@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//this is i am using neovim as my editor 
 public class array4 {
     public static void main(String[] args) {
         int []marks = new int[5];
