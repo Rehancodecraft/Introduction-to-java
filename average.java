@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//this is i am using vim
 public class average {
     public static void main(String[] args) {
         int [] array = new int[5];
