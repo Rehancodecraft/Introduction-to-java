@@ -5,7 +5,7 @@ public class average {
         int [] array = new int[5];
         Scanner input = new Scanner(System.in);
         int sum = 0;
-
+//this is a foor loop to sum the elements of array
         for(int i = 0; i < array.length;i++){
             array[i] = input.nextInt();
             sum = sum + array[i];
